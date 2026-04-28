@@ -34,6 +34,10 @@
 - 获取组件实例时，不要使用 ref<InstanceType<typeof PgmEditor>,，改用 useTemplateRef('pgmEditorRef')
 - 遵循项目的prettier规范进行代码格式化
 
+## UI还原
+
+- 如果已提供参考图进行UI还原，图中元素很接近Arco组件，优先使用Arco组件
+
 ## 代码质量
 
 - 代码逻辑合理，符合业务要求
