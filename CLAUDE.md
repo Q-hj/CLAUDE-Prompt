@@ -10,6 +10,11 @@
 - 使用 TypeScript
 - UI框架使用 Arco Design Vue
 
+## HTML
+
+- 尽量采用语义化结构
+- 尽量避免无效的DOM嵌套
+
 ## CSS
 
 - 尽量采用Tailwindcss/UnoCSS写法
@@ -28,15 +33,17 @@
 
 ## 代码风格
 
+- 业务函数使用function定义
 - 注重类型，使用 ts，不要使用any
 - 做好判空处理
 - 考虑代码抽离和复用
 - 获取组件实例时，不要使用 ref<InstanceType<typeof PgmEditor>,，改用 useTemplateRef('pgmEditorRef')
 - 遵循项目的prettier规范进行代码格式化
+- 异步API调用，使用try...catch 进行处理
 
 ## UI还原
 
-- 如果已提供参考图进行UI还原，图中元素很接近Arco组件，优先使用Arco组件
+- 尽量使用Arco组件还原UI图
 
 ## 代码质量
 
